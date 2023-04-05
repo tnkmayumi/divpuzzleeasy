@@ -4,14 +4,19 @@
   width: 400px;
 }
 
-.main{
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.content{
   background-color: #0f0;
   height: 250px;
   width: 150px;
   float: left;
 }
 
-.main2{
+.side{
   background-color: #30f;
   height: 250px;
   width: 250px;
